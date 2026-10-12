@@ -12,15 +12,24 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar">
-        <div class="logo">Makeup-by-sheen</div>
-        <ul class="nav-links">
-            <li><a href="#services">Services</a></li>
-            <li><a href="#custom-made">Bespoke Collection</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <a href="https://wa.me/919596052111" class="btn-primary nav-btn" target="_blank">Book Now</a>
+    <nav class="navbar" id="navbar">
+        <a href="#home" class="logo">Makeup-by-sheen</a>
+        <div class="nav-links" id="navLinks">
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#custom-made" class="nav-link">Bespoke Collection</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            <a href="https://wa.me/919596052111" class="btn-primary mobile-menu-btn" target="_blank">Book on WhatsApp</a>
+        </div>
+        <div class="nav-actions">
+            <a href="https://wa.me/919596052111" class="btn-primary nav-btn" target="_blank">Book Now</a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
     </nav>
+    <div class="menu-backdrop" id="menuBackdrop"></div>
 
     <!-- Hero Section -->
     <section class="hero" id="home">
@@ -109,6 +118,9 @@
                 
                 <p class="customization-text">Customisation available across designs, fabrics, colours, silhouettes & detailing.</p>
                 <h4 class="ending-tag">Designed for your occasion. Made for you.</h4>
+                <a href="https://wa.me/919596052111" class="btn-secondary custom-cta-desktop" target="_blank">Inquire About Outfits</a>
+            </div>
+            <div class="custom-cta-mobile">
                 <a href="https://wa.me/919596052111" class="btn-secondary" target="_blank">Inquire About Outfits</a>
             </div>
         </div>
@@ -129,7 +141,7 @@
                 </div>
                 <div class="detail-item">
                     <strong>Phone</strong>
-                    <p>+91 9596052111</p>
+                    <p><a href="tel:+919596052111" class="phone-link">+91 9596052111</a></p>
                 </div>
             </div>
             <a href="https://wa.me/919596052111" class="btn-primary" target="_blank">Chat on WhatsApp</a>
@@ -143,6 +155,7 @@
             <p>Timeless Beauty • Elevated Glamour • You, Only Enhanced</p>
             <div class="footer-bottom">
                 <p>&copy; 2026 Makeup-by-sheen. All rights reserved.</p>
+                <p class="developer-credit">Developed by DanishMir (zerobinary)</p>
             </div>
         </div>
     </footer>
