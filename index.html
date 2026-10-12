@@ -3,11 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Makeup-by-sheen: Timeless Beauty, Elevated Glamour. Professional makeup styling and bespoke fashion tailoring.">
+    <meta name="theme-color" content="#D4AF37">
+    <meta name="description" content="Makeup-by-sheen: Timeless Beauty, Elevated Glamour. Professional makeup styling and bespoke fashion tailoring by Nowsheen Ajaz.">
     <title>Makeup-by-sheen | Elevated Glamour</title>
+
+    <!-- Open Graph (WhatsApp, Instagram, Facebook sharing card) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Makeup-by-sheen | Timeless Beauty & Elevated Glamour">
+    <meta property="og:description" content="Experience premium makeup styling and curated bespoke fashion tailoring by Nowsheen Ajaz.">
+    <meta property="og:image" content="assets/makeup_flatlay.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✨</text></svg>">
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -18,10 +30,10 @@
             <a href="#services" class="nav-link">Services</a>
             <a href="#custom-made" class="nav-link">Bespoke Collection</a>
             <a href="#contact" class="nav-link">Contact</a>
-            <a href="https://wa.me/919596052111" class="btn-primary mobile-menu-btn" target="_blank">Book on WhatsApp</a>
+            <a href="https://wa.me/919596052111?text=Hi%20Nowsheen,%20I%20would%20like%20to%20inquire%20about%20booking%20an%20appointment." class="btn-primary mobile-menu-btn" target="_blank" rel="noopener noreferrer">Book on WhatsApp</a>
         </div>
         <div class="nav-actions">
-            <a href="https://wa.me/919596052111" class="btn-primary nav-btn" target="_blank">Book Now</a>
+            <a href="https://wa.me/919596052111?text=Hi%20Nowsheen,%20I%20would%20like%20to%20inquire%20about%20booking%20an%20appointment." class="btn-primary nav-btn" target="_blank" rel="noopener noreferrer">Book Now</a>
             <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -38,7 +50,7 @@
             <h2 class="subtitle">You, Only Enhanced</h2>
             <h1 class="title">Timeless Beauty & Elevated Glamour</h1>
             <p class="description">Experience premium makeup styling and curated bespoke fashion.</p>
-            <a href="https://wa.me/919596052111" class="btn-primary hero-btn" target="_blank">Book an Appointment</a>
+            <a href="https://wa.me/919596052111?text=Hi%20Nowsheen,%20I%20would%20like%20to%20book%20an%20appointment%20for%20makeup%20styling." class="btn-primary hero-btn" target="_blank" rel="noopener noreferrer">Book an Appointment</a>
         </div>
         <a href="#services" class="hero-scroll-indicator" aria-label="Scroll to services">
             <span>Explore Services</span>
@@ -90,7 +102,7 @@
                 </div>
             </div>
             <div class="services-image-container fade-in">
-                <img src="assets/makeup_artist.png" alt="Makeup Artist at work" class="services-image">
+                <img src="assets/makeup_artist.png" alt="Makeup Artist at work" class="services-image" loading="lazy">
             </div>
         </div>
     </section>
@@ -99,12 +111,12 @@
     <section class="custom-made" id="custom-made">
         <div class="custom-container">
             <div class="gallery-grid fade-in">
-                <img src="assets/outfit4.png" alt="Bespoke Outfit Pink" class="gallery-img">
-                <img src="assets/outfit6.png" alt="Bespoke Outfit Green" class="gallery-img">
-                <img src="assets/outfit5.png" alt="Bespoke Outfit Close up" class="gallery-img">
-                <img src="assets/outfit1.png" alt="Bespoke Outfit Collection" class="gallery-img">
-                <img src="assets/outfit2.png" alt="Bespoke Outfit Collection" class="gallery-img">
-                <img src="assets/outfit3.png" alt="Bespoke Outfit Collection" class="gallery-img">
+                <img src="assets/outfit4.png" alt="Bespoke Outfit Pink" class="gallery-img" loading="lazy">
+                <img src="assets/outfit6.png" alt="Bespoke Outfit Green" class="gallery-img" loading="lazy">
+                <img src="assets/outfit5.png" alt="Bespoke Outfit Close up" class="gallery-img" loading="lazy">
+                <img src="assets/outfit1.png" alt="Bespoke Outfit Collection" class="gallery-img" loading="lazy">
+                <img src="assets/outfit2.png" alt="Bespoke Outfit Collection" class="gallery-img" loading="lazy">
+                <img src="assets/outfit3.png" alt="Bespoke Outfit Collection" class="gallery-img" loading="lazy">
             </div>
             <div class="custom-content fade-in">
                 <h3 class="tagline">CUSTOM MADE</h3>
@@ -124,10 +136,10 @@
                 
                 <p class="customization-text">Customisation available across designs, fabrics, colours, silhouettes & detailing.</p>
                 <h4 class="ending-tag">Designed for your occasion. Made for you.</h4>
-                <a href="https://wa.me/919596052111" class="btn-secondary custom-cta-desktop" target="_blank">Inquire About Outfits</a>
+                <a href="https://wa.me/919596052111?text=Hi%20Nowsheen,%20I%20am%20interested%20in%20your%20Bespoke%20Collection%20and%20custom-made%20outfits." class="btn-secondary custom-cta-desktop" target="_blank" rel="noopener noreferrer">Inquire About Outfits</a>
             </div>
             <div class="custom-cta-mobile">
-                <a href="https://wa.me/919596052111" class="btn-secondary" target="_blank">Inquire About Outfits</a>
+                <a href="https://wa.me/919596052111?text=Hi%20Nowsheen,%20I%20am%20interested%20in%20your%20Bespoke%20Collection%20and%20custom-made%20outfits." class="btn-secondary" target="_blank" rel="noopener noreferrer">Inquire About Outfits</a>
             </div>
         </div>
     </section>
@@ -138,19 +150,20 @@
             <h2>Visit Our Studio</h2>
             <div class="contact-details">
                 <div class="detail-item">
-                    <strong>Owner</strong>
+                    <strong>Owner & Stylist</strong>
                     <p>Nowsheen Ajaz</p>
                 </div>
                 <div class="detail-item">
-                    <strong>Address</strong>
-                    <p>New Colony Lal Bazaar near Police Station<br>PIN code: 190023</p>
+                    <strong>Studio Address</strong>
+                    <p>New Colony Lal Bazaar near Police Station<br>Srinagar, Kashmir — PIN 190023</p>
+                    <a href="https://maps.google.com/?q=New+Colony+Lal+Bazaar+Police+Station+Srinagar+190023" target="_blank" rel="noopener noreferrer" class="map-link">📍 Open in Google Maps</a>
                 </div>
                 <div class="detail-item">
-                    <strong>Phone</strong>
+                    <strong>Phone & WhatsApp</strong>
                     <p><a href="tel:+919596052111" class="phone-link">+91 9596052111</a></p>
                 </div>
             </div>
-            <a href="https://wa.me/919596052111" class="btn-primary" target="_blank">Chat on WhatsApp</a>
+            <a href="https://wa.me/919596052111?text=Hi%20Nowsheen,%20I%20would%20like%20to%20visit%20your%20studio%20in%20Lal%20Bazaar." class="btn-primary" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
         </div>
     </section>
 
@@ -161,10 +174,29 @@
             <p>Timeless Beauty • Elevated Glamour • You, Only Enhanced</p>
             <div class="footer-bottom">
                 <p>&copy; 2026 Makeup-by-sheen. All rights reserved.</p>
-                <p class="developer-credit">Developed by DanishMir (zerobinary)</p>
+                <div class="developer-credit">
+                    <span>Designed & Developed by <strong>DanishMir (zerobinary)</strong></span>
+                    <span class="credit-sep">•</span>
+                    <a href="https://wa.me/917006577144?text=Hi%20Danish,%20I%20saw%20your%20work%20on%20Makeup-by-sheen%20and%20would%20like%20to%20inquire%20about%20website%20development%20services." target="_blank" rel="noopener noreferrer" class="developer-contact-btn">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.301-.15-1.78-.878-2.056-.979-.276-.1-.476-.15-.676.15-.2.301-.776.979-.951 1.18-.175.2-.351.226-.652.075-.301-.15-1.272-.469-2.423-1.496-.896-.799-1.501-1.786-1.677-2.087-.175-.301-.019-.464.132-.614.136-.135.301-.351.452-.527.15-.175.2-.301.301-.501.1-.2.05-.376-.025-.527-.075-.15-.676-1.63-.927-2.233-.244-.587-.492-.507-.676-.516l-.577-.01c-.2 0-.526.075-.802.376-.276.301-1.052 1.028-1.052 2.508 0 1.48 1.077 2.909 1.228 3.109.15.2 2.12 3.237 5.136 4.54.717.311 1.277.496 1.713.635.72.229 1.376.197 1.895.12.578-.087 1.78-.727 2.03-1.43.251-.702.251-1.304.175-1.43-.075-.125-.276-.201-.577-.351z"/>
+                            <path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.988-1.408C8.423 21.506 10.15 22 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18.167c-1.684 0-3.246-.484-4.573-1.317l-.328-.205-3.053.861.879-2.977-.225-.343A8.127 8.127 0 013.833 12c0-4.502 3.665-8.167 8.167-8.167 4.502 0 8.167 3.665 8.167 8.167 0 4.502-3.665 8.167-8.167 8.167z"/>
+                        </svg>
+                        Click to Contact Developer for Services (+91 7006577144)
+                    </a>
+                </div>
             </div>
         </div>
     </footer>
+
+    <!-- Floating WhatsApp Action Button -->
+    <a href="https://wa.me/919596052111?text=Hi%20Nowsheen,%20I%20would%20like%20to%20inquire%20about%20booking%20an%20appointment." class="floating-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Chat with Nowsheen on WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.301-.15-1.78-.878-2.056-.979-.276-.1-.476-.15-.676.15-.2.301-.776.979-.951 1.18-.175.2-.351.226-.652.075-.301-.15-1.272-.469-2.423-1.496-.896-.799-1.501-1.786-1.677-2.087-.175-.301-.019-.464.132-.614.136-.135.301-.351.452-.527.15-.175.2-.301.301-.501.1-.2.05-.376-.025-.527-.075-.15-.676-1.63-.927-2.233-.244-.587-.492-.507-.676-.516l-.577-.01c-.2 0-.526.075-.802.376-.276.301-1.052 1.028-1.052 2.508 0 1.48 1.077 2.909 1.228 3.109.15.2 2.12 3.237 5.136 4.54.717.311 1.277.496 1.713.635.72.229 1.376.197 1.895.12.578-.087 1.78-.727 2.03-1.43.251-.702.251-1.304.175-1.43-.075-.125-.276-.201-.577-.351z"/>
+            <path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.988-1.408C8.423 21.506 10.15 22 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18.167c-1.684 0-3.246-.484-4.573-1.317l-.328-.205-3.053.861.879-2.977-.225-.343A8.127 8.127 0 013.833 12c0-4.502 3.665-8.167 8.167-8.167 4.502 0 8.167 3.665 8.167 8.167 0 4.502-3.665 8.167-8.167 8.167z"/>
+        </svg>
+        <span class="floating-tooltip">Chat on WhatsApp</span>
+    </a>
 
     <script src="script.js"></script>
 </body>
